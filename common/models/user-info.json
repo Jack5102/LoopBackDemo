@@ -1,0 +1,29 @@
+{
+  "name": "UserInfo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number"
+    },
+    "UserName": {
+      "type": "string"
+    },
+    "PassWord": {
+      "type": "string"
+    },
+    "RealName": {
+      "type": "string"
+    },
+    "State": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
